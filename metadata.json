@@ -1,0 +1,8 @@
+{
+  "name": "Bel Madrasah Al-Huda Otomatis",
+  "description": "Sistem pengendali dan penjadwalan bel sekolah otomatis dengan nada lonceng terintegrasi, pengumuman suara Bahasa Indonesia, dan pustaka audio kustom.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

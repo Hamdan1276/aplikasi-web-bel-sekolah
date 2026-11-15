@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-arabic: "Amiri", "Plus Jakarta Sans", serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F7F2;
+    color: #13221C;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-arabic {
+    font-family: var(--font-arabic);
+  }
+}
